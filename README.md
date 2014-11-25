@@ -8,12 +8,12 @@ PycUI:Python console color
 ----
 #### 导入模块
 ```py
-from cui import *
+from pycui import *
 ```
 #### 初始化对象
 ```py
 color = color()
-cui = cui()
+cui = pycui()
 ```
 #### 彩色输出示例
 ```py

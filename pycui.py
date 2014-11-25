@@ -2,7 +2,7 @@
 '''
 	@name		Python console color-output ui (PycUI)
 	@blog		https://ursb.org
-	@github		https://github.com/h01/python
+	@github		https://github.com/h01/pycui
 	@update		2014/10/29
 	@author		Holger
 	@version	1.0
@@ -50,7 +50,7 @@ class color:
 					print "%s%s%s"%(c, m, self.BLACK),
 		self.p = p
 
-class cui:
+class pycui:
 	def __init__(self):
 		self.c = color()
 	def warning(self, m):
